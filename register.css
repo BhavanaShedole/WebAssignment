@@ -1,0 +1,291 @@
+/*background images taken from pixabay.com*/
+@import url('http://fonts.googleapis.com/css?family=Calibri');
+html
+{
+  
+background-image: url(../images/nature2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+}
+
+.Registration_form
+{
+top: 50%;
+left: 50%;
+position: absolute;
+background: rgba(0,0,0,0.5);
+color: #ffff;
+transform: translate(-50%,-50%);
+opacity: 0.8;
+box-sizing: border-box;
+padding: 20px 30px;
+}
+ 
+h1
+{
+text-align: center;
+margin-top: 0px;
+font-size: 150%;
+font-family: Calibri;
+font-weight:normal;
+}
+
+.Registration_form  input[type="text"], input[type="password"] 
+{
+width: 100%;
+border: none;
+background: transparent;
+border-bottom: 1px;
+border-bottom-color: #ffff;
+border-bottom-style: solid;
+font-size: 120%;
+font-family: Calibri;
+color: #ffff;
+height: 25px;
+outline: none;
+margin-bottom: 6%;
+}
+
+/* #firstname
+{
+
+margin-bottom: 2%;
+
+}
+
+#lastname
+{
+
+margin-bottom: 2%;
+}
+#email
+{
+margin-bottom: 2%;
+}
+#pwd
+{
+
+margin-bottom: 2%;
+}
+#crfmpwd
+{
+
+margin-bottom: 2%;
+}
+#addr
+{
+
+margin-bottom: 2%;
+}
+
+#code
+{
+
+margin-bottom: 2%;
+} */
+
+#button{
+    width: 40%;
+    height: 25%;
+	background-color:  #008CBA;
+	border: none;
+	color:#ffff;
+	font-size: 100%;
+	font-family: Calibri;
+	padding: 3% 3%;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#backbtn{
+    width: 45%;
+    height: 25%;
+	background-color:  #008CBA;
+	border: none;
+	color:#ffff;
+	font-size: 100%;
+	font-family: Calibri;
+	padding: 3% 3%;
+	display: inline-block;
+	cursor: pointer;
+}
+.labels{
+font-family: Calibri;
+}
+
+.err
+{
+color:#F87D22;
+font-family: Calibri;
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+.Registration_form{
+
+width: 60%;
+height: 70%;
+
+}
+
+#firstname
+{
+
+margin-bottom: 12%;
+}
+#lastname
+{
+
+margin-bottom: 12%;
+}
+#email
+{
+margin-bottom: 12%;
+}
+#pwd
+{
+
+margin-bottom: 12%;
+}
+#crfmpwd
+{
+
+margin-bottom: 12%;
+}
+#addr
+{
+
+margin-bottom: 12%;
+}
+#code
+{
+
+margin-bottom: 12%;
+}
+
+.form_div input[type="text"], input[type="password"] {
+
+width: 100%;
+border: none;
+background: transparent;
+border-bottom: 1px;
+border-bottom-color: #ffff;
+border-bottom-style: solid;
+font-size: 150%;
+font-family: Calibri;
+color: #ffff;
+height: 20px;
+outline: none;
+}
+
+h1{
+
+font-size: 300%;
+}
+.err
+{
+color:#F87D22;
+font-size: 80%;
+font-weight: bold;
+font-family: Calibri;
+
+}
+.labels{
+font-size:150%;
+font-family: Calibri;
+}
+
+#button{
+    width: 30%;
+    height: 5%;
+	font-size: 170%;
+	font-family: Calibri;
+	
+}
+
+#backbtn{
+    width: 40%;
+    height: 5%;
+	margin-left: 10%;
+	font-size: 170%;
+	font-family: Calibri;
+	
+}
+
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 481px){
+
+.Registration_form{
+width: 70%;
+}
+h1{
+display: none;
+
+}
+
+.err
+{
+color:#F87D22;
+font-size: 80%;
+font-family: Calibri;
+
+}
+#firstname
+{
+
+margin-bottom: 9%;
+}
+#lastname
+{
+
+margin-bottom: 9%;
+}
+#email
+{
+margin-bottom: 9%;
+}
+#pwd
+{
+
+margin-bottom: 9%;
+}
+#crfmpwd
+{
+
+margin-bottom: 9%;
+}
+#addr
+{
+
+margin-bottom: 9%;
+}
+#code
+{
+
+margin-bottom: 9%;
+}
+.labels{
+font-size: 100%;
+font-family: Calibri;
+}
+
+#backbtn{
+    width: 50%;
+    font-family: Calibri;
+	font-size: 90%;
+	
+}
+
+#button{
+    width: 40%;
+	font-size: 90%;
+	font-family: Calibri;
+	
+}
+
+}

@@ -1,0 +1,273 @@
+include  url('../includes/normalize.css');
+/*all the images have been taken from google images*/
+html {
+    background-image: url(../images/download.jpg);
+	    background-repeat: no-repeat;
+    background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+}
+.img{
+background-image: url(../images/nature2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+ 
+}
+/*img 
+{
+width:100px;
+height: 150px;
+margin-left: 50px;
+}*/
+
+
+h1
+{
+margin-left: 40%;
+margin-top: 2%;
+font-size: 300%;
+font-family: 'Century Gothic', sans-serif;
+color:rgb(65,155,150);
+font-style:italic;
+}
+
+.differentlinks {
+    list-style-type: none;
+    margin: 0%;
+    border-color: #e7e7e7;
+    background-color: #145A32;
+    overflow: hidden;
+    font-size: 120%;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: #000;
+        text-align: center;
+        text-decoration: none;
+        padding: 14px 16px;
+    }
+
+a:link {
+    font-weight: bold
+}
+
+a:hover {
+    color: #fff;
+}
+
+.differentlinks .active{
+	color: white;
+}
+
+.mainParentDiv:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.parent {
+    float: left;
+    margin-top: 5%;
+}
+
+#column1_text {
+    font-weight: bold;
+}
+
+#column2_text {
+    font-weight: bold;
+}
+
+#column3_text {
+    font-weight: bold;
+}
+
+.main {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    margin: 1%;
+    display: inline;
+}
+/*.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}*/
+@media only screen and (min-width:781px) {
+    /* For tablets: */
+    .main {
+        width: 98%;
+        padding: 0;
+    }
+
+    .parent {
+        width: 33.1%;
+    }
+
+    #burgerMenuIcon {
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    #WelcomStyle {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 781px) {
+    /* For tablets: */
+    .main {
+        width: 48%;
+        padding: 0;
+    }
+
+    h1 {
+        margin-left: 25%;
+    }
+
+    #column1_text {
+        display: inline-block;
+    }
+
+    #burgerMenuIcon {
+        display: inline;
+        font-size: 156.5% !important;
+		color: white;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    #WelcomStyle {
+        font-size: 250% !important;
+        display: block;
+		
+    }
+
+    .sidenav a {
+        font-size: 138% !important;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 481px) {
+    /* For mobile phones: */
+    h1 {
+        margin-left: 8%;
+    }
+
+    .main {
+        width: 99%;
+    }
+
+    #burgerMenuIcon {
+        display: inline;
+        font-size: 138% !important;
+		color: white;
+    }
+
+	
+    .navbar {
+        display: none;
+    }
+
+    #WelcomStyle {
+        font-size: 200% !important;
+    }
+
+    .sidenav a {
+        font-size: 125% !important;
+    }
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    /*padding-top: 60px;*/
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 157%;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+    .sidenav .closebtn {
+        /*position: absolute;*/
+        top: 0;
+        right: 157%;
+        font-size: 225%;
+        margin-left: 75%;
+    }
+
+#burgerMenuIcon {
+    font-size: 188%;
+    cursor: pointer;
+    position: absolute;
+	color: white;
+}
+
+#WelcomStyle {
+   
+    display: block;
+    text-align: center;
+	font-size: 300%;
+	font-family: 'Century Gothic', sans-serif;
+	color:white;
+	font-style:italic;
+	font-weight:bold;
+	height: 300%;
+}
+
+#WelcomStyle1 {
+   
+    display: block;
+    margin-left: 0px;
+	font-size: 90%;
+	font-family: 'Century Gothic', sans-serif;
+	color:white;
+	font-style:italic;
+	font-weight:bold;
+}
+
+
+@media screen and (max-height: 450px) {
+    /*.sidenav {
+        padding-top: 15px;
+    }*/
+
+        .sidenav a {
+            font-size: 113%;
+        }
+}

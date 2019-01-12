@@ -1,0 +1,163 @@
+
+/*background images taken from pixabay.com*/
+@import url('http://fonts.googleapis.com/css?family=Raleway');
+@import url('http://fonts.googleapis.com/css?family=Oswald');
+
+html
+{
+  background-image: url(../images/indexBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+ 
+}
+
+.content
+{
+margin-top: 16%;
+max-width: 32%;
+margin-left:50%;
+
+}
+
+.content h1
+{
+font-family: 'Raleway', sans-serif;
+color: #fff ;
+font-size: 400%;
+
+}
+
+.btn
+{
+font-family: 'Oswald', sans-serif;
+border-radius: 11%;
+color: #5DADE2;
+font-size: 150%;
+padding:3% 4%;
+border: solid;
+border-color: #5DADE2;
+text-transform: uppercase;
+text-decoration:none;
+text-indent: solid;
+
+}
+
+.btn:hover
+{
+color: #ffff;
+border: solid;
+border-color:#ffff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+
+html
+{
+  background-image: url(../images/mobileindexBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+ 
+}
+.content
+{
+margin-top: 20%;
+max-width: 60%;
+margin-left: 40%;
+
+}
+
+.content h1
+{
+font-family: 'Raleway', sans-serif;
+color: #ffff;
+font-size: 370%;
+
+}
+
+.btn
+{
+font-family: 'Oswald', sans-serif;
+border-radius: 15%;
+color: #5DADE2;
+font-size: 140%;
+padding:3% 3%;
+border: solid;
+font-weight: bold;
+border-color: #5DADE2;
+text-transform: uppercase;
+text-decoration:none;
+text-indent: solid;
+
+}
+.btn:hover
+{
+color: #ffff;
+border: solid;
+border-color:#ffff;
+}
+
+
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 640px)
+{
+
+html
+{
+  background-image: url(../images/mobileindexBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+ 
+}
+.content
+{
+margin-top: 30%;
+max-width: 60%;
+margin-left: 30%;
+text-align: center;
+}
+
+.content h1
+{
+font-family: 'Raleway', sans-serif;
+color: #ffff;
+font-size: 185%;
+
+}
+
+.btn
+{
+font-family: 'Oswald', sans-serif;
+border-radius: 20%;
+color:#5DADE2;
+font-size: 90%;
+padding:3% 3%;
+font-weight: bold;
+border: solid;
+border-color: #5DADE2;
+text-transform: uppercase;
+text-decoration:none;
+text-indent: solid;
+
+}
+
+.btn:hover
+{
+color: #ffff;
+border: solid;
+border-color:#ffff;
+}
+
+}
+
+
+

@@ -1,0 +1,223 @@
+
+/*background images taken from pixabay.com*/
+@import url('http://fonts.googleapis.com/css?family=Calibri');
+
+html
+{
+  background-image: url(../images/loginimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+ 
+}
+
+
+
+.loginform
+{
+width: 20%;
+height: 65%;
+top: 50%;
+left: 50%;
+position: absolute;
+background: rgba(0,0,0,0.5);
+color: #ffff;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 2.5% 1.5%;
+}
+
+h1
+{
+text-align: center;
+margin-top: 0%;
+font-size: 170%;
+font-family: Calibri;
+font-weight: normal;
+}
+
+.loginform  input[type="text"], input[type="password"] 
+{
+width: 100%;
+border: none;
+background: transparent;
+border-bottom: 1px;
+border-bottom-color: #ffff;
+border-bottom-style: solid;
+font-size: 110%;
+font-family: Calibri;
+color: #ffff;
+height: 20px;
+outline: none;
+}
+
+p{
+font-size: 110%;
+/* font-weight: bold; */
+font-family: Calibri;
+}
+
+.loginform input[type="submit"]
+{
+width: 50%;
+margin-left:20%;
+margin-top: 10%;
+background-color:  #008CBA;
+border: none;
+color:#ffff;
+font-size: 100%;
+font-family: Calibri;
+padding: 3% 3%;
+display: inline-block;
+cursor: pointer;
+}
+
+#reg
+{
+width: 50%;
+margin-left:20%;
+margin-top: 10%;
+background-color:  #008CBA;
+border: none;
+color:#ffff;
+font-size: 100%;
+font-family: Calibri;
+display: inline-block;
+cursor: pointer;
+padding: 3% 3%;
+
+}
+
+#index
+{
+width:40%;
+margin-left: 10%;
+}
+
+#regNow
+{
+ margin-top: 70%;
+ font-size: 100%;
+ font-family: Calibri;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+.loginform
+{
+width: 60%;
+height: 65%;
+background: rgba(0,0,0,0.5);
+color: #ffff;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 5% 4%;
+
+}
+
+h1
+{
+text-align: center;
+margin-top: 5%;
+font-size: 300%;
+font-family: Calibri;
+font-weight: normal;
+}
+.loginform  input[type="text"], input[type="password"] 
+{
+width: 100%;
+border: none;
+border-bottom: 2px;
+border-bottom-color: #ffff;
+border-bottom-style: solid;
+font-size: 150%;
+color: #ffff;
+height: 100%;
+outline: none;
+}
+
+p{
+font-size: 200%;
+/* font-weight: bold; */
+font-family: Calibri;
+}
+.loginform input[type="submit"]
+{
+width: 50%;
+margin-top: 10%;
+height: 100%;
+font-size: 150%;
+font-family: Calibri;
+display: inline-block;
+cursor: pointer;
+}
+
+#reg
+{
+width:50%;
+margin-top: 0px;
+height: 50%;
+font-size: 150%;
+font-family: Calibri;
+display: inline-block;
+cursor: pointer;
+}
+
+#index
+{
+width:40%;
+margin-top: 0px;
+margin-left: 50%;
+height: 30px;
+font-size: 22px;
+}
+
+#regNow
+{
+ margin-top: 70%;
+ font-size: 150%;
+ font-family: Calibri;
+}
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 640px)
+{
+.loginform
+{
+width: 65%;
+height: 65%;
+position: absolute;
+background: rgba(0,0,0,0.5);
+color: #ffff;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 50px 30px;
+}
+
+.loginform input[type="submit"]
+{
+width: 40%;
+margin-top: 10%;
+height: 100%;
+font-size: 100%;
+font-family: Calibri;
+display: inline-block;
+cursor: pointer;
+}
+
+#reg
+{
+width: 40%;
+margin-top: 0%;
+height: 100%;
+font-size: 100%;
+font-family: Calibri;
+display: inline-block;
+cursor: pointer;
+}
+
+}
+
